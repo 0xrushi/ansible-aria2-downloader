@@ -1,0 +1,6 @@
+.DS_Store
+inventory/ansible.cfg
+inventory/hosts.home
+inventory/playbook.yaml
+inventory/hosts2
+inventory/neveropen.pem

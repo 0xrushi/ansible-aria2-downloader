@@ -1,0 +1,7 @@
+[all:vars]
+ansible_become=yes
+ansible_become_method=sudo
+[all]
+machine1 ansible_host=192.168.1.1 ansible_user=ubuntu ansible_ssh_private_key_file=/Users/bread/Documents/ansiblestuff/inventory/testkey.pem
+machine2 ansible_host=192.168.1.2 ansible_user=ubuntu ansible_ssh_private_key_file=/Users/bread/Documents/ansiblestuff/inventory/testkey.pem
+machine3 ansible_host=192.168.1.3 ansible_user=ubuntu ansible_ssh_private_key_file=/Users/bread/Documents/ansiblestuff/inventory/testkey.pem
